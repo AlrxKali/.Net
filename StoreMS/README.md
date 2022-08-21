@@ -59,3 +59,15 @@ Of the use cases for an API Gateway, the most common is routing. It is similar t
 3. The Service responds to the gateway. 
 4. The gateway processes the response and sends it to the client.
 
+### API's Documentation
+
+#### Overview
+
+The goal of this project is to test the microservice architecture with the help of Ocelot Gateway. 
+This API's documentation will continue growing as the project size increases. So far, there are only 
+two end-points for GET all data stored in the database (no filtered) and to POST products to the catalog 
+database. 
+
+#### Tutorial
+
+1. Clone project to local. 
