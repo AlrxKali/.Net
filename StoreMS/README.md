@@ -26,6 +26,15 @@
 
 <hr>
 
+### What is a monolithic Architecture?
+
+Monolithic architectures are designed to make it possible for different companies to carry out their daily business activities with all the necessary components in a single application and in a logical way in each case. Two examples of prevalent monolithic architectures are ERP (Enterprise Resource Planning) and CRM (Customer Relation Management).
+
+To solve this type of problem, SOA (Service Oriented Architecture) was created, a type of architecture in which the application can be decoupled into small modules known as services. All these services are integrated using an aggregation layer called a bus. All services communicate through this service bus. Over time, this application can become monolithic over time since all services are integrated with the same layer.
+
+![image](https://user-images.githubusercontent.com/55760198/185811848-a46b9cf7-8045-4f6d-a306-4f658da306a7.png)
+
+
 ### What is a Microservice Architecture?
 
 Microservices are both an architectural style and a way of programming software. With microservices, applications are broken down into their smallest, independent elements. Unlike the traditional, monolithic approach to applications, where everything is built into one piece, microservices are separate elements that work together to perform the same tasks.
@@ -34,11 +43,19 @@ Each one of those elements or processes is a microservice. This approach to soft
 
 However, the biggest question is, what are the benefits of using a microservices infrastructure? Simply put, the goal is to deliver quality software faster. While this can be achieved with microservices, other issues must be considered. For example, splitting applications into microservices is not enough; they need to be managed and coordinated, and the data they create and modify.
 
-### What is a monolithic Architecture?
+![image](https://user-images.githubusercontent.com/55760198/185812470-a1444fda-3d61-4836-b285-a56bd7b84c01.png)
 
-Monolithic architectures are designed to make it possible for different companies to carry out their daily business activities with all the necessary components in a single application and in a logical way in each case. Two examples of prevalent monolithic architectures are ERP (Enterprise Resource Planning) and CRM (Customer Relation Management).
+The image above shows the architecture that we will follow in this project.
 
-To solve this type of problem, SOA (Service Oriented Architecture) was created, a type of architecture in which the application can be decoupled into small modules known as services. All these services are integrated using an aggregation layer called a bus. All services communicate through this service bus. Over time, this application can become monolithic over time since all services are integrated with the same layer.
+### **Up to now, the project is not complete, and the only microservice that is entirely functional for GET and POST is the Catalog service.**
 
-![image](https://user-images.githubusercontent.com/55760198/185811774-ea3b5e0a-51dd-46f4-b03b-367628d82481.png)
+### What is the API gateway
+
+API Gateways are a layer between the client and the services it relies on. Sometimes called "reverse proxy," they act as a single entry point for the customer to your services. For example, an API gateway would be a reception desk in front of an office building. They're in charge of routing calls, stopping unexpected visitors, and ensuring packages arrive at the right place. 
+
+Of the use cases for an API Gateway, the most common is routing. It is similar to this: 
+1. A client sends a request to the gateway. 
+2. The gateway processes and sends the request to the Service. 
+3. The Service responds to the gateway. 
+4. The gateway processes the response and sends it to the client.
 
