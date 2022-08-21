@@ -51,5 +51,10 @@ git clone git@github.com:AlrxKali/.Net.git
 
 It should run on your localhost.
 
+![image](https://user-images.githubusercontent.com/55760198/185815094-4fb1988d-9405-4217-b992-5483a3476ae2.png)
 
+6. Click on Inventory
+7. ![image](https://user-images.githubusercontent.com/55760198/185815155-e6fe75b2-025b-4f98-b462-eaf614c69553.png)
+8. Start playing, you cannot break it!. 
 
+**Edit feature is not developed, yet. Sorry about that!**
