@@ -71,3 +71,14 @@ database.
 #### Tutorial
 
 1. Clone project to local. 
+
+```
+git clone git@github.com:AlrxKali/.Net.git
+```
+
+2. Open StoreMS
+3. Open Solution with Visual Studio
+4. Right click on solution -> build solution
+![image](https://user-images.githubusercontent.com/55760198/185813640-a0d4e015-6e90-483b-ba8e-4988c6580f40.png)
+5. Run Solution
+![image](https://user-images.githubusercontent.com/55760198/185813606-829be367-b9fc-4f6d-a3fe-5f40d801a447.png)
