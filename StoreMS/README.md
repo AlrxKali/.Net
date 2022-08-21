@@ -82,3 +82,16 @@ git clone git@github.com:AlrxKali/.Net.git
 ![image](https://user-images.githubusercontent.com/55760198/185813640-a0d4e015-6e90-483b-ba8e-4988c6580f40.png)
 5. Run Solution
 ![image](https://user-images.githubusercontent.com/55760198/185813606-829be367-b9fc-4f6d-a3fe-5f40d801a447.png)
+
+It should run on your localhost/swagger.
+
+#### Making Get Request using swagger or postman
+
+For making a Get request, add the API path to the URL: url/api/Catalog.
+![image](https://user-images.githubusercontent.com/55760198/185813887-7d2097fe-3683-4895-a335-e90c78633a50.png)
+
+#### Making Post Request using swagger or postman
+
+For making a Post request add the name, description, and price of the item in a JSON file format:
+![image](https://user-images.githubusercontent.com/55760198/185814033-a68c09c1-99e1-4aa1-9bbc-ff03810e6467.png)
+
